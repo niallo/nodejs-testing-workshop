@@ -33,17 +33,17 @@ Once you have performed the installation steps listed above, you can get a shell
 
 You should see the following:
 
-  <nialljohiggins@mbp:nodejs-testing-workshop>$ vagrant ssh
-  Linux lucid32 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux
-  Ubuntu 10.04.4 LTS
+    <nialljohiggins@mbp:nodejs-testing-workshop>$ vagrant ssh
+    Linux lucid32 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux
+    Ubuntu 10.04.4 LTS
 
-  Welcome to Ubuntu!
-   * Documentation:  https://help.ubuntu.com/
-  Welcome to your Vagrant-built virtual machine.
-  Last login: Thu May 10 19:20:12 2012 from 10.0.2.2
-  vagrant@lucid32:~$ node -v
-  v0.6.17
-  vagrant@lucid32:~$ npm -v
-  1.1.21
-  vagrant@lucid32:~$ mocha -V
-  1.0.3
+    Welcome to Ubuntu!
+     * Documentation:  https://help.ubuntu.com/
+    Welcome to your Vagrant-built virtual machine.
+    Last login: Thu May 10 19:20:12 2012 from 10.0.2.2
+    vagrant@lucid32:~$ node -v
+    v0.6.17
+    vagrant@lucid32:~$ npm -v
+    1.1.21
+    vagrant@lucid32:~$ mocha -V
+    1.0.3
