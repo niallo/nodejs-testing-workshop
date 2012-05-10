@@ -15,11 +15,11 @@ Installation
 - First you will need Vagrant on your system. Head over to http://vagrantup.com/ and install for your platform.
 - Now clone this repository:
 
-    git clone git@github.com:niallo/nodejs-testing-workshop.git
+    `git clone git@github.com:niallo/nodejs-testing-workshop.git`
 
 - Finally, in the `nodejs-testing-working` directory, run the command:
 
-    vagrant up
+    `vagrant up`
 
 This will take a while the first time as it must download the lucid32 box image and provision it with Node.JS etc. Please be patient.
 
