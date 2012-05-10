@@ -12,4 +12,7 @@ node default {
     }
 
     include "nodejs"
+    package { "git-core":
+        ensure => "installed"
+    }
 }
