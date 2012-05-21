@@ -13,6 +13,12 @@ Installation
 ============
 
 - First you will need Vagrant on your system. Head over to http://vagrantup.com/ and install for your platform.
+- Vagrant utilizes VirtualBox as the virtualization container (and uses VBOX  format).  Please install version 
+  4.0 or 4.1, as these are the supported formats.  On Mac and Windows this is a simple matter to install via
+  on of the installers.  For linux, there are a lot of options for each distro.  Be sure to get the version 
+  appropriate for your CPU and distro release.  See: https://www.virtualbox.org/wiki/Linux_Downloads for more
+  information on options.  It isn't necessarily possible to get the right version from your native package 
+  manager's repository.
 - Now clone this repository:
 
     `git clone git@github.com:niallo/nodejs-testing-workshop.git`
