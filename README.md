@@ -5,17 +5,24 @@ This repository contains a Vagrant & Puppet config for setting up a 32 bit
 Ubuntu 10.04 system with latest stable versions of Node.JS, NPM and the Mocha
 test runner installed.
 
+It also contains a starter `package.json` file to be used with `npm` to fetch and install the Node.JS testing-related software modules we cover in the lab:
+
+- Mocha test runner
+- Chai assertion library
+- Sinon mocking framework
+- Sandboxed-Module Node.JS dependency injection module
+
 The intention is that this will get people setup very quickly for the Node.JS SF
 hands-on TDD lab.
 
 
-Installation
-============
+Vagrant VM Installation
+=======================
 
 - First you will need Vagrant on your system. Head over to http://vagrantup.com/ and install for your platform.
 - Vagrant utilizes VirtualBox as the virtualization container (and uses VBOX  format).  Please install version 
   4.0 or 4.1, as these are the supported formats.  On Mac and Windows this is a simple matter to install via
-  on of the installers.  For linux, there are a lot of options for each distro.  Be sure to get the version 
+  one of the installers.  For Linux, there are a lot of options for each distro.  Be sure to get the version 
   appropriate for your CPU and distro release.  See: https://www.virtualbox.org/wiki/Linux_Downloads for more
   information on options.  It isn't necessarily possible to get the right version from your native package 
   manager's repository.
@@ -30,8 +37,8 @@ Installation
 This will take a while the first time as it must download the lucid32 box image and provision it with Node.JS etc. Please be patient.
 
 
-Usage
-=====
+Vagrant VM Usage
+================
 
 Once you have performed the installation steps listed above, you can get a shell on the Vagrant box any time by running the following command from the `nodejs-testing-workshop` directory:
 
@@ -53,3 +60,22 @@ You should see the following:
     1.1.21
     vagrant@lucid32:~$ mocha -V
     1.0.3
+
+
+Node.JS Sample Project
+======================
+
+If you clone this repository via
+
+    `git clone git@github.com:niallo/nodejs-testing-workshop.git`
+
+and 'cd' into the same directory as `package.json`, you can easily get all the
+Node.JS dependencies installed by executing:
+
+    `npm install`
+
+Once installed, you can try running the (non-existant) test-suite:
+
+    `npm test`
+
+This will fail since we haven't written any tests yet :-)
