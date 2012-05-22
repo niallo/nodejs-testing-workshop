@@ -1,0 +1,14 @@
+{
+    "name": "nodejs-testing-workshop"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+  }
+  , "devDependencies": {
+      "mocha": ">=0.11.0"
+    , "chai": ">=1.0.1"
+  }
+  , "scripts": {
+      "test": "mocha -R tap"
+  }
+}
