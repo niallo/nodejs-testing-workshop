@@ -61,6 +61,14 @@ You should see the following:
     vagrant@lucid32:~$ mocha -V
     1.0.3
 
+Working on your app in Vagrant
+==============================
+Inside this project is a directory called 'app'.  It is a shared directory between your host
+and the Vagrant box for the project   If you 'vagrant ssh'
+you will see the app directory exists in the default vagrant user's home directory.  cd into 
+the app directory and do: npm install
+
+Alternative: Follow instructions below and clone the repository inside the vagrant box.
 
 Node.JS Sample Project
 ======================
