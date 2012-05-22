@@ -93,6 +93,7 @@ If you would like to see a sample Node.JS demo app (Express-based) which has a s
 Further Reading
 ===============
 
+Node.JS standard library assert module: http://nodejs.org/docs/latest/api/assert.html
 Chai Assertion Styles Guide (TDD vs BDD): http://chaijs.com/guide/styles/
 Chai API docs: http://chaijs.com/api/
 Mocha Test Runner: http://visionmedia.github.com/mocha/
