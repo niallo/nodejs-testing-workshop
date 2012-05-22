@@ -94,11 +94,17 @@ Further Reading
 ===============
 
 Node.JS standard library assert module: http://nodejs.org/docs/latest/api/assert.html
+
 Chai Assertion Styles Guide (TDD vs BDD): http://chaijs.com/guide/styles/
+
 Chai API docs: http://chaijs.com/api/
+
 Mocha Test Runner: http://visionmedia.github.com/mocha/
+
 Sinon.JS Mocking module: http://sinonjs.org/
+
 Node Sandboxed Module (for dependency injection): https://github.com/felixge/node-sandboxed-module
+
 Git pre-commit hooks to automatically run tests before allowing commit: http://ariya.ofilabs.com/2012/03/git-pre-commit-hook-and-smoke-testing.html
 
 
