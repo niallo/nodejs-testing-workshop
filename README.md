@@ -80,8 +80,4 @@ Once installed, you can try running the (non-existant) test-suite:
 
 This will fail since we haven't written any tests yet :-)
 
-If you would like to see a sample Node.JS demo app (Express-based) which has a suite of tests, feel free to check out
-
-    https://github.com/BeyondFog/Poang
-
-You are welcome to crib any code you like for your own project.
+If you would like to see a sample Node.JS demo app (Express-based) which has a suite of tests, feel free to check out https://github.com/BeyondFog/Poang - you are welcome to crib any code you like for your own project.
