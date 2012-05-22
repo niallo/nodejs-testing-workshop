@@ -67,15 +67,15 @@ Node.JS Sample Project
 
 If you clone this repository via
 
-    `git clone git@github.com:niallo/nodejs-testing-workshop.git`
+    git clone git@github.com:niallo/nodejs-testing-workshop.git
 
 and 'cd' into the same directory as `package.json`, you can easily get all the
 Node.JS dependencies installed by executing:
 
-    `npm install`
+    npm install
 
 Once installed, you can try running the (non-existant) test-suite:
 
-    `npm test`
+    npm test
 
 This will fail since we haven't written any tests yet :-)
