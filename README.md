@@ -89,3 +89,15 @@ Once installed, you can try running the (non-existant) test-suite:
 This will fail since we haven't written any tests yet :-)
 
 If you would like to see a sample Node.JS demo app (Express-based) which has a suite of tests, feel free to check out https://github.com/BeyondFog/Poang - you are welcome to crib any code you like for your own project.
+
+Further Reading
+===============
+
+Chai Assertion Styles Guide (TDD vs BDD): http://chaijs.com/guide/styles/
+Chai API docs: http://chaijs.com/api/
+Mocha Test Runner: http://visionmedia.github.com/mocha/
+Sinon.JS Mocking module: http://sinonjs.org/
+Node Sandboxed Module (for dependency injection): https://github.com/felixge/node-sandboxed-module
+Git pre-commit hooks to automatically run tests before allowing commit: http://ariya.ofilabs.com/2012/03/git-pre-commit-hook-and-smoke-testing.html
+
+
