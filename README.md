@@ -99,7 +99,7 @@ Chai Assertion Styles Guide (TDD vs BDD): http://chaijs.com/guide/styles/
 
 Chai API docs: http://chaijs.com/api/
 
-Mocha Test Runner: http://visionmedia.github.com/mocha/
+Mocha Test Runner: https://mochajs.org/
 
 Sinon.JS Mocking module: http://sinonjs.org/
 
